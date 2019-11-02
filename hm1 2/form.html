@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+    <html>
+      <head>
+        <title>Add New Article</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      </head>
+      <body>
+        <form>
+          <div class="w3-container">
+          <h1>Add New Article</h1>
+          <div class="form-group">
+            <label for="articleTitle"><h4>Article Title</h4></label>
+            <input type="title" class="form-control" id="articleTitle" aria-describedby="title" placeholder="Title">
+          </div>
+          <div class="form-group">
+            <label for="authorName"><h4>Author Name</h4></label>
+            <input type="name" class="form-control" id="authorName" aria-describedby="name" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-3 ">
+                  <h4>Upload Files:</h4>
+                  <input type="file" id="myFile" name="filename2">
+                </div>
+                <div class="col-sm-3 ">
+                  <label for="sel1"><h4>Pages:</h4></label>
+                  <select class="form-control" id="sel1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="form-group">
+              <label for="articleText"><h4>Article Text</h4></label>
+              <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+            <div class="form-group">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-4 ">
+                    <h4>Select Tags</h4>
+                    <label class="checkbox-inline">
+                      <input type="checkbox" value="">Python
+                    </label>
+                    <label class="checkbox-inline">
+                      <input type="checkbox" value="">C++
+                    </label>
+                    <label class="checkbox-inline">
+                      <input type="checkbox" value="">Java
+                    </label>
+                    <label class="checkbox-inline">
+                      <input type="checkbox" value="">Scala
+                    </label>
+                    <label class="checkbox-inline">
+                      <input type="checkbox" value="">Perl
+                    </label>
+                  </div>
+                  <div class="col-sm-4 ">
+                    <label for="sel1"><h4>Visibility</h4></label>
+                    <br>
+                    <div class="btn-group btn-group-lg">
+                      <button type="button" class="btn btn-secondary">Public</button>
+                      <button type="button" class="btn btn-secondary">Private</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            <div class="form-group">
+              <label for="articleTitle"><h4>Login to Finish Submitting</h4></label>
+              <input type="email" class="form-control" id="userEmail" aria-describedby="email" placeholder="Username">
+              <input type="password" class="form-control" id="userPassword" aria-describedby="password" placeholder="Password">
+              <label class="checkbox-inline">
+                <br><input type="checkbox" value="">Remember me
+              </label>
+              <br><br>
+              <input type="submit" class="card bg-primary text-white value="Submit">
+            </div>
+            <br><br><br><br>
+            </div>
+        </form>
+      </body>
+    </html>
